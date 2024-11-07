@@ -1,0 +1,16 @@
+Uninstalling Docker and Kubernetes >>>>>>>>>>
+---------------------------------------------
+
+sudo apt remove docker.io
+
+or
+
+sudo apt purge docker.io
+
+
+sudo apt remove kubelet kubeadm kubectl
+
+or 
+
+sudo apt purge kubelet kubeadm kubectl
+
