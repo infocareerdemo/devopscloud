@@ -1,0 +1,15 @@
+Changine role name for the kubernetes
+=====================================
+
+kubectl label node k8secondary node-role.kubernetes.io/secondary=
+
+ie = "secondary" is the name set for k8secondary 
+
+Creating token for secondary
+============================
+
+kubeadm token create --print-join-command
+
+Output ie :
+
+kubeadm join 10.0.1.12:6443 --token h0rlkh.175ol2w790t7v70o --discovery-token-ca-cert-hash sha256:617193bbd946cfe422a4dc26c764e1eebcf1657669d2b7b5ba236a0d772f8a30

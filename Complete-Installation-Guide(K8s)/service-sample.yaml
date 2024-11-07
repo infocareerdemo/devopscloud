@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: spring-sample-service
+spec:
+  selector:
+    app: spring-sample
+  ports:
+    - protocol: TCP
+      port: 8020
+      targetPort: 8038
+      nodePort: 30020  # Specify a nodePort value (between 30000-32767)
+  type: NodePort
