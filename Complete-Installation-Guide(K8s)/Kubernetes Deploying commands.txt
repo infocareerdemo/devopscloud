@@ -1,0 +1,53 @@
+########## Falling back to Minikube from docker-desktop ##########
+
+$ docker context use default
+
+$ minikube start 
+
+$ minikube status 
+
+$ minikube ip
+
+########## Deploying commands in Kubernetes ##########
+
+$ kubectl apply -f react.yaml (for deployment)
+
+$ kubectl get deployment
+
+$ kubectl apply -f reactservices.yaml (for services)
+
+$ kubectl get deployment
+
+$ kubectl get pods
+
+$ kubectl get svc
+
+$ minikube service react-app-service
+
+
+
+########## Create namespace and run within namespace ##########
+
+$ kubectl create namespace production
+
+namespace name = production
+
+$ kubectl config set-context --current --namespace=production
+
+$ kubectl apply -f reactdeployment.yaml --namespace=production
+
+$ minikube service react-app-service -n production
+
+running inside namespace production 
+
+
+
+Note : To deploy inside Kubernetes but not from GCP whereas we need to create deployment.yaml and service.yaml, whether for both STS and React.
+
+Note : To deploy inside Kubernetes but under GCP whereas we need to create deployment.yaml only, not service.yaml.
+
+
+
+
+
+
