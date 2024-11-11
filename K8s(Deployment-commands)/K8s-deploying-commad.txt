@@ -1,0 +1,28 @@
+########## Deploying commands in Kubernetes ##########
+
+$ kubectl apply -f react.yaml (for deployment)
+
+$ kubectl get deployment
+
+$ kubectl apply -f reactservices.yaml (for services)
+
+$ kubectl get deployment
+
+$ kubectl get pods
+
+$ kubectl get svc
+
+
+########## Create namespace and run within namespace ##########
+
+$ kubectl create namespace production
+
+namespace name = production
+
+$ kubectl config set-context --current --namespace=production
+
+$ kubectl apply -f reactdeployment.yaml --namespace=production
+
+$ minikube service react-app-service -n production
+
+running inside namespace production 
