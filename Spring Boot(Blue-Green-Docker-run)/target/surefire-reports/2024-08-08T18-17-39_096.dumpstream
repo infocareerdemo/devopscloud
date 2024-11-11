@@ -1,5 +1,0 @@
-# Created at 2024-08-08T18:17:56.116
-Boot Manifest-JAR contains absolute paths in classpath 'D:\Docker-run\CI-CD\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-'other' has different root
-
