@@ -1,0 +1,70 @@
+Configuring Password
+--------------------
+
+sudo passwd root
+give password here
+switch to root - ctrl + D
+checking password
+-----------------------
+
+set hostname
+---------------
+sudo hostnamectl set-hostname "k8sworker"
+exec bash
+---------------------output---------------------
+
+
+ubuntu@ip-10-0-1-158:~$ sudo hostnamectl set-hostname "k8smaster"sudo hostnamectl set-hostname "k8sworker"
+ubuntu@ip-10-0-1-158:~$ ^C
+ubuntu@ip-10-0-1-158:~$ ^C
+ubuntu@ip-10-0-1-158:~$ sudo hostnamectl set-hostname "k8sworker"
+ubuntu@ip-10-0-1-158:~$ exec bash
+
+
+
+---------------------------------------
+set hosts
+---------
+
+sudo vi /etc/hosts
+127.0.1.1 k8sworker
+do save = esc -> shift + : + wq!
+-------------------------output -----------------------
+ubuntu@k8sworker2:~$ sudo vi /etc/hosts
+
+
+-----------------------
+
+Network interfaces
+------------------
+
+switch to root = su root
+
+vi /etc/network/interfaces
+
+auto enpos8
+interface enpos8  inet static
+address 10.0.1.158   ## please change the ip . look into the vm Private IPv4 addresses
+netmask 255.255.255.0
+
+do save
+
+for saving = esc -> shift + : + wq!
+for exit = esc -> shift + : + q!
+
+Hint : address ip is Private ip of your current instance, so change it accordingly
+
+-----------------------------------------------------------------------------------
+
+Ping and test k8sworker
+
+ping k8sworker
+
+-----------------------
+
+
+
+
+
+
+

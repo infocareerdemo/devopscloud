@@ -1,0 +1,37 @@
+2024-01-10 15:42:43,460 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-01-10 15:43:12,462 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.boot:springbootcicd:0.0.1-SNAPSHOT @ C:\STS\STS-Kube-Ingress\pom.xml.
+2024-01-10 15:43:14,656 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /STS-Kube-Ingress/src/main/java
+2024-01-10 15:43:14,658 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /STS-Kube-Ingress/src/main/resources
+2024-01-10 15:43:14,659 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /STS-Kube-Ingress/src/main/resources
+2024-01-10 15:43:14,661 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /STS-Kube-Ingress/src/test/java
+2024-01-10 15:43:15,850 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 8 sec
+2024-01-10 15:43:24,721 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-10 15:43:24,912 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-01-10 15:43:24,915 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\STS\STS-Kube-Ingress\src\test\resources
+2024-01-10 15:43:49,470 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-01-10 15:43:51,825 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.boot:springbootcicd:0.0.1-SNAPSHOT @ C:\STS\STS-Kube-Ingress\pom.xml.
+2024-01-10 15:43:53,124 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /STS-Kube-Ingress/src/main/java
+2024-01-10 15:43:53,124 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /STS-Kube-Ingress/src/main/resources
+2024-01-10 15:43:53,125 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /STS-Kube-Ingress/src/main/resources
+2024-01-10 15:43:53,126 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /STS-Kube-Ingress/src/test/java
+2024-01-10 15:43:53,708 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2024-01-10 15:43:54,850 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-10 15:43:54,884 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-01-10 15:43:54,890 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\STS\STS-Kube-Ingress\src\test\resources
+2024-01-10 15:44:24,796 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-01-10 15:44:25,460 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.boot:springbootcicd:0.0.1-SNAPSHOT @ C:\STS\STS-Kube-Ingress\pom.xml.
+2024-01-10 15:44:26,006 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /STS-Kube-Ingress/src/main/java
+2024-01-10 15:44:26,009 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /STS-Kube-Ingress/src/main/resources
+2024-01-10 15:44:26,011 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /STS-Kube-Ingress/src/main/resources
+2024-01-10 15:44:26,013 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /STS-Kube-Ingress/src/test/java
+2024-01-10 15:44:26,556 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2024-01-10 15:44:27,978 [Worker-1: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-10 15:44:28,011 [Worker-1: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-01-10 15:44:28,024 [Worker-1: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\STS\STS-Kube-Ingress\src\test\resources
+2024-01-10 15:47:07,447 [Worker-5: Launching Executing clean in C__STS_STS-Kube-Ingress] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\STS\STS-Kube-Ingress
+2024-01-10 15:47:07,481 [Worker-5: Launching Executing clean in C__STS_STS-Kube-Ingress] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean -Dstyle.color=always -Dstyle.color=always
+2024-01-10 15:47:35,388 [Worker-2: Launching Executing clean in C__STS_STS-Kube-Ingress] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\STS\STS-Kube-Ingress
+2024-01-10 15:47:35,390 [Worker-2: Launching Executing clean in C__STS_STS-Kube-Ingress] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean -Dstyle.color=always -Dstyle.color=always
+2024-01-10 15:47:48,322 [Worker-4: Launching Executing install in C__STS_STS-Kube-Ingress] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\STS\STS-Kube-Ingress
+2024-01-10 15:47:48,323 [Worker-4: Launching Executing install in C__STS_STS-Kube-Ingress] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install -Dstyle.color=always -Dstyle.color=always
+2024-05-10 15:22:09,143 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
