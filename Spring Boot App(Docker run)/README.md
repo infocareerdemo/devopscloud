@@ -1,2 +1,0 @@
-# springcicd
-sample  for git
