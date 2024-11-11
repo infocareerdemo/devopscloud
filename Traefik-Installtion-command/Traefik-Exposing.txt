@@ -1,0 +1,37 @@
+Traefik installtions
+--------------------
+
+helm repo add traefik https://traefik.github.io/charts
+
+helm repo update
+
+helm install traefik traefik/traefik
+
+kubectl get svc 
+
+kubectl get pod
+
+kubectl get deploy
+
+Sample Traefik yaml
+-------------------
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-sample
+  annotations:
+    traefik.ingress.kubernetes.io/router.entrypoints: web
+spec:
+  ingressClassName: traefik
+  rules:
+  - host: sample.com  # Replace with your actual domain
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: <Replace with your actual service name>
+            port:
+              number: 8083 <Replace with your application exposing port>
+
