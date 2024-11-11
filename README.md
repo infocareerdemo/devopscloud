@@ -1,2 +1,0 @@
-# devopscloud
-devopscloud

@@ -1,6 +1,0 @@
-cd /etc
-ls
-sudo mkdir sample
-sudo chmod 777 sample
-cd /etc/sample
-ls
